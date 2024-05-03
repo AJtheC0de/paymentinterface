@@ -1,0 +1,130 @@
+h1 {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+h2 {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+p,
+label,
+input {
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+
+.paymentinfobox {
+  text-align: center;
+}
+
+.paymentchoice {
+  background-color: #f6f1f1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+  min-width: 200px;
+  border-radius: 20px;
+  padding: 0px 10px 0px 10px;
+
+  border-width: 3px;
+}
+
+.paymentcard {
+  height: 50px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.inputinformations {
+  flex-direction: column;
+  display: flex;
+  padding: 10px 30px 10px 30px;
+  min-width: 200px;
+  text-align: center;
+}
+
+.inputrequest {
+  margin: 10px 0px 10px 0px;
+}
+
+input {
+  text-align: center;
+  padding: 10px;
+}
+
+input {
+  border-radius: 10px;
+  background-color: rgb(203, 203, 203);
+  border: none;
+  color: black;
+}
+
+.dates {
+  display: flex;
+}
+
+.securitynr {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.monthyear {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.paymentbutton {
+  margin-top: 20px;
+}
+
+.paymentbutton > a {
+  background-color: #ffc6ac;
+  padding: 10px 20px 10px 20px;
+  font-size: 19px;
+  border-radius: 20px;
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #272829;
+}
+
+.paymentbutton > a:hover {
+  background-color: #9e9fa5;
+  padding: 10px 20px 10px 20px;
+  font-size: 19px;
+  border-radius: 20px;
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  transition: backround-color 0.5s ease;
+  color: white;
+}
+
+@media (max-width: 426px) {
+  .inputrequest {
+    font-size: 11px;
+  }
+}
