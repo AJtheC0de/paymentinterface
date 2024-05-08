@@ -123,8 +123,10 @@ input {
   color: white;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 425px) {
   .inputrequest {
     font-size: 9px;
+    padding: 3px;
   }
 }
+
